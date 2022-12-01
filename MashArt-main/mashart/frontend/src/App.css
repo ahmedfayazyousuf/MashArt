@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Emblema+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --light: #ffffff;
+  --dark: #000000;
+  --grey-light: #eeeeee;
+  --grey-dark: #2f2e41;
+  --background: #caf0f8;
+  --background-dark: #00b4d8;
+  --primary: #90e0ef;
+  --primary-dark: #48cae4;
+  --primary-light: #ade8f4;
+  --secondary: #023e8a;
+  --secondary-dark: #03045e;
+  --secondary-light: #0077b6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Poppins";
+}
